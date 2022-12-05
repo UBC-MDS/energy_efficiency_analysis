@@ -13,7 +13,6 @@ python src/download.py http://archive.ics.uci.edu/ml/machine-learning-databases/
 Options:
 <input_file>     Path (including filename) to data file
 <output_file1>    Path (including filename) of where to locally write the file of the train_df
-
 """
 
 import pandas as pd
