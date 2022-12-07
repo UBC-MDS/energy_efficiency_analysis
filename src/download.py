@@ -37,7 +37,6 @@ def main(url, output_file1):
     print(req)
     
   data = pd.read_excel(url, header=0)
-  
   try:
       data.to_csv(output_file1, index = False)
   except:
